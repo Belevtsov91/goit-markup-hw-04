@@ -85,7 +85,8 @@ img{
     color: #2E2F42;
     position: relative;
 }
-.header-list > li:first-of-type > a{
+/*.header-list > li:first-of-type > a*/
+.header-list>li:first-child .header-item{
     color: #404BBF;
     text-decoration: none;
 }
