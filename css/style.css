@@ -79,18 +79,35 @@ img{
 .page-header a{
     padding: 24px 0;
 }
+
 .header-list a{
     text-decoration: none;
     color: #2E2F42;
     position: relative;
 }
-
+.header-list > li:first-of-type > a{
+    color: #404BBF;
+    text-decoration: none;
+}
 .header-list a:hover{
     color: #404BBF;
 }
 .header-list a:active{
     color: #404BBF;
     position: relative;
+}
+.header-list>li:first-of-type>a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404BBF;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header-list a:active::after{
@@ -111,7 +128,6 @@ img{
 .header-list a:focus{
     color: #404bbf;
 }
-
 
 .address-list{
     font-family: "Roboto", sans-serif;
