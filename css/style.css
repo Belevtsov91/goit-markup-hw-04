@@ -244,6 +244,9 @@ button:focus{
 }
 
 .benefits-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid #8E8F99;
     border-radius: 4px;
     width: 264px;
@@ -258,8 +261,8 @@ button:focus{
     stroke: currentColor;
     fill: currentColor;
     position: absolute;
-    top: 24px;
-    left: 100px;
+    /*top: 24px;
+    left: 100px;*/
 }
 .benefits-item{
     font-weight: 500;
