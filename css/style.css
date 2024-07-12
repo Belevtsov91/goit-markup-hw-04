@@ -493,13 +493,45 @@ footer.end-page{
 .end-page .container{
     display: flex;
     flex-wrap: wrap;
+    align-items: baseline;
 }
-.social-media h3{
+.footer-media{
     margin-bottom: 16px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
+}
+.footer-icon-list{
+    display: flex;
+    gap: 16px;
+}
+.footer-icon-item{
+    width: 40px;
+    height: 40px;
+}
+.footer-box-item{
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-box-item:hover{
+    background-color: #31d0aa;
+}
+.footer-box-item:focus{
+    background-color: #31d0aa;
+}
+.icon-footer{
+    display: inline-block;
+    stroke-width: 0;
+    stroke: #f4f4fd;
+    fill: #f4f4fd;
+    align-items: center;
+    justify-content: center;
 }
