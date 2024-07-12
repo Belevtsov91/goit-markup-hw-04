@@ -355,7 +355,7 @@ div.benefits-icon{
 
 }
 
-.team-box-item .icon-team{
+.team-box-item svg.icon-team{
     display: inline-block;
     stroke-width: 0;
     stroke:#f4f4fd;
