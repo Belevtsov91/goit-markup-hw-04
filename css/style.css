@@ -395,24 +395,19 @@ div.benefits-icon{
     column-gap: 24px;
     row-gap: 48px;
     flex-wrap: wrap;
-    /*box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);*/
 }
 .portfolio-list-item{
     width: calc((100% - 48px) / 3);
-    /*position: relative;
-    overflow: hidden;*/
 }
-.portfolio-list ..portfolio-list-item{
+.portfolio-list .portfolio-list-item:hover{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.portfolio-list-item{
+.portfolio-list-item:hover{
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-list-item p:hover{
+.img-portfolio-item p:hover{
     transform: translateY(0%);
 }
 .img-portfolio-item{
@@ -426,6 +421,7 @@ div.benefits-icon{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    background-color: #4d5ae5;
     padding: 40px 32px;
     height: 100%;
     width: 100%;
