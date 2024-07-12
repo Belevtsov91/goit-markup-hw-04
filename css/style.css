@@ -170,14 +170,14 @@ img{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /*max-width: 1440px;
-    margin: 0 auto;*/
+    max-width: 1440px;
+    margin: 0 auto;
     
 }
 .solution .container{
-    max-width: 1440px;
+   
     align-items: center;
-    margin: 0 auto;
+    
     }
 
 .solution-item{
