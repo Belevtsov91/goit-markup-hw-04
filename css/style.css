@@ -368,7 +368,7 @@ div.benefits-icon{
 .team-box-item svg.icon-team{
     display: inline-block;
     stroke-width: 0;
-    stroke:#f4f4fd;
+    /*stroke:#f4f4fd;*/
     fill: #f4f4fd;
     align-items: center;
     justify-content: center;
