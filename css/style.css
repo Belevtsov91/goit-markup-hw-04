@@ -344,7 +344,7 @@ div.benefits-icon{
     gap: 24px;
     justify-content: center;
 }
-.team-icon-item{
+/*.team-icon-item{
     display: flex;
     width: 40px;
     height: 40px;
@@ -353,8 +353,17 @@ div.benefits-icon{
     background-color: #404BBF;
     border-radius: 50%;
 
-}
+}*/
 
+.team-box-item{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: #404BBF;
+    border-radius: 50%;
+}
 .team-box-item svg.icon-team{
     display: inline-block;
     stroke-width: 0;
